@@ -11,10 +11,6 @@ export default function Answer() {
     ...context.quizQuestion.data[context.quizQuestion.currentIndex].incorrect,
   ];
 
-  function handleClick(event) {
-    setAns(event.target.value);
-  }
-
   return (
     <div>
       <ul className="answer--main">
